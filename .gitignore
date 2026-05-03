@@ -1,0 +1,13 @@
+venv/
+__pycache__/
+*.pyc
+.env
+conversation_history.json
+vibhath_knowledge.json
+output.log
+request.wav
+response.mp3
+*.lnk
+calendar_memory.db
+vault.json
+Captures/

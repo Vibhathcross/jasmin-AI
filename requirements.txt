@@ -1,0 +1,11 @@
+keyboard
+colorama
+google-genai
+requests
+geocoder
+pywhatkit
+SpeechRecognition
+pyttsx3
+PyAudio
+feedparser
+python-dotenv
