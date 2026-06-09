@@ -1,3 +1,12 @@
+"""
+Jasmin AI - Configuration
+
+Repository: https://github.com/Vibhathcross/jasmin-AI
+License: MIT
+
+Central configuration for API keys, paths, and settings.
+"""
+
 import os
 from dotenv import load_dotenv
 
