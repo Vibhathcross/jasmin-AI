@@ -5,9 +5,12 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # --- API CONFIGURATION ---
-GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "your_gemini_api_key_here")
-TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "your_telegram_bot_token_here")
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "")
+TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "")
 AUTHORIZED_CHAT_ID = os.getenv("AUTHORIZED_CHAT_ID", "")
+GROQ_API_KEY = os.getenv("GROQ_API_KEY", "")
+LLAMALAB_SECRET = os.getenv("LLAMALAB_SECRET", "")
+LLAMALAB_EMAIL = os.getenv("LLAMALAB_EMAIL", "")
 
 # --- ASSISTANT SETTINGS ---
 WAKE_WORD = "hey assistant"
